@@ -74,7 +74,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Email Us</div>
-                                        <a href="mailto:contact@nje-wealth.com" className="text-lg font-medium hover:text-green-600 transition text-slate-700 break-all">contact@nje-wealth.com</a>
+                                        <a href="mailto:contact@nje-wealth.com" className="text-lg font-medium hover:text-green-600 transition text-slate-700 break-all">nikunjkakadiya58@gmail.com</a>
                                     </div>
                                 </div>
 
