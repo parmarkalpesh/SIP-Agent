@@ -17,6 +17,7 @@ export default function Navbar() {
         { name: "Home", href: "#home" },
         { name: "Why SIP", href: "#why-sip" },
         { name: "How It Works", href: "#how-it-works" },
+         { name: "Our Services", href: "#our-Services" },
         { name: "Benefits", href: "#benefits" },
         { name: "Calculator", href: "#calculator" },
         { name: "Testimonials", href: "#testimonials" },
@@ -32,10 +33,12 @@ export default function Navbar() {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                {/* Logo */}
-                <a href="#" className="text-2xl font-bold text-slate-900 tracking-wide">
-                    NJ E-Wealth <span className="text-green-600">SIP Agent</span>
-                </a>
+                    <img
+                        src="/new_logo.png"
+                        alt="Wealthara Capital Logo"
+                        className="h-25  w-auto object-contain"
+                    />
+
 
                 {/* Desktop Menu */}
                 <div className="hidden lg:flex items-center gap-6">
@@ -80,12 +83,12 @@ export default function Navbar() {
                         </a>
                     ))}
                     <a
-                        href="tel:+917016223029"
+                        href="tel:+918128488441"
                         className="flex items-center gap-2 bg-green-600 text-white px-6 py-3 rounded-full font-bold shadow-md"
                         onClick={() => setIsOpen(false)}
                     >
                         <Phone size={20} />
-                        <span>+91 70162 23029</span>
+                        <span>+91 81284 88441</span>
                     </a>
                 </div>
             )}
