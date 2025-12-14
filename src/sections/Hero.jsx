@@ -45,7 +45,7 @@ export default function Hero() {
                                 <ArrowRight size={20} />
                             </a>
                             <a
-                                href="https://wa.me/7016223029"
+                                href="https://wa.me/8128488441"
                                 className="inline-flex justify-center items-center gap-2 px-8 py-4 bg-white text-slate-700 border border-slate-200 font-semibold rounded-xl hover:bg-slate-50 transition-all shadow-sm hover:shadow-md"
                             >
                                 Talk to Expert

@@ -31,7 +31,7 @@ export default function Contact() {
             `*Message:* ${formData.message || 'N/A'}`;
 
         const encodedText = encodeURIComponent(text);
-        const waLink = `https://wa.me/7016223029?text=${encodedText}`;
+        const waLink = `https://wa.me/8128488441?text=${encodedText}`;
 
         window.open(waLink, "_blank");
     };
@@ -64,7 +64,7 @@ export default function Contact() {
                                     </div>
                                     <div>
                                         <div className="text-xs font-bold text-slate-500 uppercase tracking-wider mb-1">Call / WhatsApp</div>
-                                        <a href="tel:+917016223029" className="text-xl font-bold hover:text-green-600 transition tracking-wide text-slate-900">+91 70162 23029</a>
+                                        <a href="tel:+918128488441" className="text-xl font-bold hover:text-green-600 transition tracking-wide text-slate-900">+91 81284 88441</a>
                                     </div>
                                 </div>
 

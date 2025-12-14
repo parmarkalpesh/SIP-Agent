@@ -12,7 +12,7 @@ export default function Footer() {
                         </p>
                     </div>
                     <a
-                        href="https://wa.me/7016223029"
+                        href="https://wa.me/8128488441"
                         className="mt-4 md:mt-0 px-6 py-2 bg-green-600 hover:bg-green-700 text-white rounded-lg font-medium transition-colors"
                     >
                         Chat on WhatsApp
@@ -20,15 +20,13 @@ export default function Footer() {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8 text-sm">
-                    <div>
-                        <div className="text-2xl font-bold text-white mb-4">
-                            NJ E-Wealth <span className="text-green-500">SIP Agent</span>
-                        </div>
-                        <p className="leading-relaxed text-slate-400">
+                    <div className="flex items-center justify-center text-center">
+                        <p className="leading-relaxed text-slate-400 max-w-sm">
                             Your trusted partner for mutual fund investments. We help you plan,
                             invest, and grow your wealth with disciplined SIPs.
                         </p>
                     </div>
+
                     <div>
                         <h4 className="text-white font-semibold mb-4">Quick Links</h4>
                         <ul className="space-y-2">

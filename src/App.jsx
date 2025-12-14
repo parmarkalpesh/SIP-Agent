@@ -8,6 +8,7 @@ import Testimonials from "./sections/Testimonials";
 import Faq from "./sections/Faq";
 import Contact from "./sections/Contact";
 import Footer from "./components/Footer";
+import Ourservices from "./sections/Ourservices"
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Hero />
         <WhySip />
         <HowItWorks />
+        <Ourservices/>
         <Benefits />
         <SipCalculator />
         <Testimonials />
