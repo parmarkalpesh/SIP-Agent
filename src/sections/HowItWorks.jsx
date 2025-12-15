@@ -37,9 +37,9 @@ export default function HowItWorks() {
                     subtitle="Starting your investment journey is simple, fast, and completely paperless."
                 />
 
-                <div className="grid md:grid-cols-4 gap-8 relative">
+                <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-8 relative">
                     {/* Connector Line (Desktop) */}
-                    <div className="hidden md:block absolute top-12 left-0 w-full h-0.5 bg-slate-200 -z-0"></div>
+                    <div className="hidden lg:block absolute top-12 left-0 w-full h-0.5 bg-slate-200 -z-0"></div>
 
                     {steps.map((step, index) => (
                         <div key={index} className="relative z-10 flex flex-col items-center text-center group">

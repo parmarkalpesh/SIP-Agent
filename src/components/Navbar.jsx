@@ -17,7 +17,7 @@ export default function Navbar() {
         { name: "Home", href: "#home" },
         { name: "Why SIP", href: "#why-sip" },
         { name: "How It Works", href: "#how-it-works" },
-         { name: "Our Services", href: "#our-Services" },
+        { name: "Our Services", href: "#our-Services" },
         { name: "Benefits", href: "#benefits" },
         { name: "Calculator", href: "#calculator" },
         { name: "Testimonials", href: "#testimonials" },
@@ -33,11 +33,11 @@ export default function Navbar() {
                 }`}
         >
             <div className="container mx-auto px-6 flex justify-between items-center">
-                    <img
-                        src="/new_logo.png"
-                        alt="Wealthara Capital Logo"
-                        className="h-25  w-auto object-contain"
-                    />
+                <img
+                    src="/new_logo.png"
+                    alt="Wealthara Capital Logo"
+                    className="h-16 md:h-20 lg:h-24 w-auto object-contain"
+                />
 
 
                 {/* Desktop Menu */}

@@ -20,7 +20,7 @@ export default function Footer() {
                 </div>
 
                 <div className="grid md:grid-cols-3 gap-8 text-sm">
-                    <div className="flex items-center justify-center text-center">
+                    <div className="flex items-start justify-start text-left">
                         <p className="leading-relaxed text-slate-400 max-w-sm">
                             Your trusted partner for mutual fund investments. We help you plan,
                             invest, and grow your wealth with disciplined SIPs.
