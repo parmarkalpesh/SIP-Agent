@@ -113,9 +113,3 @@ a:focus-visible {
     padding-bottom: 4rem;
   }
 }
-
-/* Prevent horizontal overflow from transforms or shadows */
-html,
-body {
-  overflow-x: hidden;
-}

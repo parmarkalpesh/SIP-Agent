@@ -14,8 +14,8 @@ export default function Hero() {
     >
       {/* Background Gradients */}
       <div className="absolute top-0 left-0 w-full h-full bg-slate-50 -z-10"></div>
-      <div className="absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-green-500/10 rounded-full blur-3xl"></div>
-      <div className="absolute bottom-[10%] left-[-10%] w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-3xl"></div>
+      <div className="hidden md:block absolute top-[-10%] right-[-5%] w-[500px] h-[500px] bg-green-500/10 rounded-full blur-3xl"></div>
+      <div className="hidden md:block absolute bottom-[10%] left-[-10%] w-[400px] h-[400px] bg-blue-500/10 rounded-full blur-3xl"></div>
 
       <div className="container mx-auto px-6">
         <div className="flex flex-col lg:flex-row items-center gap-6 lg:gap-12 text-slate-900">
